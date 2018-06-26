@@ -1,0 +1,27 @@
+.news-container{
+
+}
+
+.news-card {
+  border: 1px solid #666;
+  border-radius: 5px;
+  background-color: white;
+  margin: 50px auto;
+  height: 250px;
+  box-shadow: 5px 5px #ddd;
+}
+
+.news-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  margin: 15px;
+}
+
+.news-card h4{
+  margin: 15px auto;
+}
+
+.news-card p{
+  margin: 15px;
+}

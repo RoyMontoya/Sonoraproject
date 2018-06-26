@@ -1,0 +1,13 @@
+.news-trail{
+  background-color: #eee;
+  height: 100%;
+}
+
+.right-side-box{
+  background-color: #bbb;
+  height: inherit;
+}
+
+li{
+  list-style: none;
+}
