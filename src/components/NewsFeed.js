@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../styles/NewsFeed.css'
 import NewsCard from './NewsCard'
+import SocialBox from './SocialBox'
 
 class NewsFeed extends React.Component {
   render() {
@@ -13,7 +14,12 @@ class NewsFeed extends React.Component {
             <li><NewsCard/></li>
           </ul>
         </div>
-        <div className="col-md-3 right-side-box"></div>
+        <div className="col-md-3 right-side-box">
+          <ul className="col-md-12">
+            <li><SocialBox/></li>
+          </ul>
+
+        </div>
       </div>
     </div>);
   }

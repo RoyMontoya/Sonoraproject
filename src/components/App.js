@@ -13,8 +13,8 @@ library.add( faCheckSquare, faCoffee)
 class App extends Component {
   render() {
     return (<div className="App">
-      <NavBar/>
       <Banner/>
+      <NavBar/>
       <NewsFeed/>
       <Footer/>
 
