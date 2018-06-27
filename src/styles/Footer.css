@@ -1,0 +1,22 @@
+.custom-footer{
+  background-color: #333;
+  height: 75px;
+}
+
+.custom-footer p{
+  color: white;
+}
+
+.custom-footer a{
+  color: white;
+}
+
+.awesome-icon {
+  color: white;
+  margin: 5px;
+}
+
+.footer-content{
+  justify-content: center;
+  padding: 25px 0 0 0;
+}

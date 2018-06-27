@@ -9,7 +9,7 @@ class NavBar extends React.Component {
         <nav className="navbar navbar-expand navbar-dark bg-dark navbar-default">
 
           <a className="navbar-brand" href="#">
-            <img className="logo-avodado" role="presentation" src={logo} alt="Avocado" title="Avocado"/>Nutricion Sonora</a>
+            <img role="presentation" src={logo} alt="Avocado" title="Avocado"/>Nutricion Sonora</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
