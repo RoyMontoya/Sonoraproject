@@ -1,0 +1,26 @@
+@fontface {
+  font-family: 'Source Sans Pro', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Source+Sans+Pro')
+}
+
+.favorite-box {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 250px;
+  height: 240px;
+  margin: 0 16.5px;
+  border-radius: 25px;
+  background-color: white;
+  border: 1px solid #333;
+  box-shadow: 5px 5px #555;
+}
+
+.favorite-box h5 {
+  margin: 15px;
+}
+
+.favorite-box a {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-decoration: none;
+}

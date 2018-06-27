@@ -1,0 +1,15 @@
+.subscribe-box{
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 250px;
+  height: 250px;
+  margin: 50px 0;
+  border-radius: 25px;
+  background-color: white;
+  border: 1px solid #333;
+  box-shadow: 5px 5px #555;
+  padding: 15px;
+}
+
+.subscribe-box h5{
+
+}

@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import '../styles/NewsFeed.css'
 import NewsCard from './NewsCard'
 import SocialBox from './SocialBox'
+import FavoriteBox from './FavoriteBox'
+import SubscribeBox from './SubscribeBox'
 
 class NewsFeed extends React.Component {
   render() {
@@ -17,6 +19,8 @@ class NewsFeed extends React.Component {
         <div className="col-md-3 right-side-box">
           <ul className="col-md-12">
             <li><SocialBox/></li>
+            <li><FavoriteBox/></li>
+            <li><SubscribeBox/></li>
           </ul>
 
         </div>

@@ -1,9 +1,17 @@
+@fontface {
+  font-family: 'Source Sans Pro', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Source+Sans+Pro')
+}
+
 .social-box{
-  width: 250px;
+font-family: 'Source Sans Pro', sans-serif;
+width: 250px;
 height: 120px;
 margin: 50px 16.5px;
 border-radius: 25px;
-background-color: lightgrey;
+background-color: white;
+border: 1px solid #333;
+box-shadow: 5px 5px #555;
 }
 
 .no-padding{
