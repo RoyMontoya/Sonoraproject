@@ -1,0 +1,44 @@
+.profile-contianer{
+  background: white;
+}
+
+.profile-contianer h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 50px;
+}
+
+.profile-row{
+  justify-content: center;
+  margin: 35px auto;
+}
+
+.profile-box{
+  height: 330px;
+  border-radius: 3px;
+  margin: 25px 30px;
+  background-color: white;
+  border: 1px solid #333;
+}
+
+.profile-box:hover{
+  opacity: .5;
+}
+
+.profile-box>img{
+  height: 185px;
+  width: 185px;
+  border-radius: 50%;
+  margin: 15px 0;
+  object-fit: cover;
+}
+
+.profile-box>h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 15px;
+}
+
+.profile-box>p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: inherit;
+}

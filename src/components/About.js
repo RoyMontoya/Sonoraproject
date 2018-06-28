@@ -10,8 +10,7 @@ class About extends React.Component {
       <div>
       <div className="container">
         <div className="row">
-          <img className="about-img" src={banner} alt="healthy-Banner" title="banner"/>
-          <div className="col-md-12 about-body"></div>
+          <div className="col-md-12 about-body">
           <h2 className="over-image-title">¿Quienes somos?</h2>
           <p className="over-image-text">Somos personas como tu que buscamos generar un cambio en la comunidad, promiviendo estilos de vida saludables
           y proporcionando las herramientas para que cualquier persona pueda adquirir un estilo de vida saludable.<br/><br/>
@@ -20,7 +19,7 @@ class About extends React.Component {
 
           <h2></h2>
 
-
+          </div>
         </div>
       </div>
 

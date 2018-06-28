@@ -5,6 +5,7 @@ import Banner from './Banner'
 import NewsFeed from './NewsFeed'
 import Footer from './Footer'
 import About from './About'
+import NutPortfolio from './NutPortfolio'
 import '../styles/App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
@@ -17,7 +18,8 @@ class App extends Component {
       <Banner/>
       <NavBar/>
       {/* <About/> */}
-      <NewsFeed/>
+      <NutPortfolio/>
+      {/* <NewsFeed/> */}
       <Footer/>
 
     </div>);
