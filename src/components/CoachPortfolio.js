@@ -1,20 +1,41 @@
 import React, {Component} from 'react';
 import '../styles/NutPortfolio.css';
 import ProfileBox from './ProfileBox';
-import profile1 from '../img/coach1.jpg';
-import profile2 from '../img/coach2.jpg';
-import profile3 from '../img/coach3.jpg';
+import data from '../controllers/FirebaseController'
 
 class CoachPortfolio extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      profiles: []
+    };
+
+  }
+
+  componentWillMount() {
+    let self = this;
+    data.firestore.collection("coaches").get().then(function(querySnapshot) {
+      querySnapshot.forEach(function(doc) {
+        self.setState({profiles: [...self.state.profiles, doc.data()]});
+      });
+    });
+  }
+
+
   render() {
+    let profilesDiv = [];
+
+    const fill_profiles = this.state.profiles.forEach((profile) =>{
+      profilesDiv.push(<ProfileBox name={profile.name} profession={profile.profession} image={profile.image}/>)
+    });
+
     return (<div className="container">
       <div className="profile-contianer">
         <h3>Nuestros Fitness Coach</h3>
         <div className="col-md-12">
           <div className="row profile-row">
-            <ProfileBox name="Chris Evans" profession="Licenciado en entramiento deportivo" image={profile1}/>
-            <ProfileBox name="Jason Momoa" profession="Tricampeon de Nado" image={profile2}/>
-            <ProfileBox name="Connor McGregor" profession="MMA champion" image={profile3}/>
+            {profilesDiv}
           </div>
         </div>
       </div>
