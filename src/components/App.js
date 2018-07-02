@@ -20,8 +20,8 @@ class App extends Component {
       <NavBar/>
       {/* <About/> */}
       {/* <NutPortfolio/> */}
-      <CoachPortfolio/>
-      {/* <NewsFeed/> */}
+      {/* <CoachPortfolio/> */}
+      <NewsFeed/>
       <Footer/>
 
     </div>);

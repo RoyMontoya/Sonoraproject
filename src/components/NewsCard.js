@@ -12,11 +12,11 @@ class NewsCard extends React.Component {
             <div id="about" className="col-md-12">
               <div className="row">
                 <div className="col-sm-3 xs-center">
-                  <img src={logo} alt=""/>
+                  <img src={this.props.image} alt=""/>
                 </div>
-                <div className="col-sm-9">
-                  <h4>Test of about page, redeem your self</h4>
-                  <p id="first-paragraph">this is a simple paragraph that is meant to be nice and easy to type which is why there will be mommas no periods or any capital letters so i guess this means that it cannot really   <a href="#">...read more</a></p>
+                <div className="col-sm-9 text-container">
+                  <h4>{this.props.title}</h4>
+                  <p id="first-paragraph">{this.props.content}<a href="#">...read more</a></p>
                 </div>
               </div>
             </div>

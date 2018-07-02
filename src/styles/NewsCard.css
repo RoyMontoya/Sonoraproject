@@ -1,5 +1,6 @@
-.news-container{
-
+.text-container{
+  text-overflow: clip;
+  height: 250px;
 }
 
 .news-card {
