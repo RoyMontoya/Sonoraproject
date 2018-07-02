@@ -10,7 +10,6 @@ class CoachPortfolio extends React.Component {
     this.state = {
       profiles: []
     };
-
   }
 
   componentWillMount() {
@@ -22,12 +21,9 @@ class CoachPortfolio extends React.Component {
     });
   }
 
-
   render() {
-    let profilesDiv = [];
-
-    const fill_profiles = this.state.profiles.forEach((profile) =>{
-      profilesDiv.push(<ProfileBox name={profile.name} profession={profile.profession} image={profile.image}/>)
+    let profilesDiv = this.state.profiles.map((profile) =>{
+      return (<ProfileBox name={profile.name} profession={profile.profession} image={profile.image}/>)
     });
 
     return (<div className="container">
