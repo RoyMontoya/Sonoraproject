@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import logo from '../img/news.jpg';
-import '../styles/NewsCard.css'
+import './style.css'
 
 class NewsCard extends React.Component {
   render() {

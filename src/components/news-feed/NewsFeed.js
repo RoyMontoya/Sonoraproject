@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import '../styles/NewsFeed.css'
-import NewsCard from './NewsCard'
-import SocialBox from './SocialBox'
-import FavoriteBox from './FavoriteBox'
-import SubscribeBox from './SubscribeBox'
-import data from '../controllers/FirebaseController'
+import './style.css'
+import NewsCard from '../news-card/NewsCard'
+import SocialBox from '../social-box/SocialBox'
+import FavoriteBox from '../favorite-box/FavoriteBox'
+import SubscribeBox from '../subscribe-box/SubscribeBox'
+import data from '../../controllers/FirebaseController'
 
 class NewsFeed extends React.Component {
   constructor(props) {

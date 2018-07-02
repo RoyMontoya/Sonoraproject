@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import '../styles/NutPortfolio.css';
-import ProfileBox from './ProfileBox';
-import data from '../controllers/FirebaseController'
+import './style.css';
+import ProfileBox from '../profile-box/ProfileBox';
+import data from '../../controllers/FirebaseController'
 
 class CoachPortfolio extends React.Component {
   constructor(props) {

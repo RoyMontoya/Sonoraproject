@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../styles/SubscribeBox.css'
+import './style.css'
 
 class SubscribeBox extends React.Component {
 

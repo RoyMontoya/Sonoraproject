@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../styles/Footer.css';
+import './style.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 class Footer extends React.Component {

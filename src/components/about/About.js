@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import '../styles/About.css';
-import banner from '../img/about-background.jpeg';
-import separator from '../img/healthy.jpg';
+import './style.css';
+import banner from '../../img/about-background.jpeg';
+import separator from '../../img/healthy.jpg';
 
 class About extends React.Component {
 

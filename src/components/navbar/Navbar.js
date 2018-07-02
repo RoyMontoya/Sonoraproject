@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import logo from '../img/avocado.png'
-import '../styles/Navbar.css';
+import logo from '../../img/avocado.png'
+import './style.css';
 
 class NavBar extends React.Component {
   render(){

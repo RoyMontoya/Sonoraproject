@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../styles/SocialBox.css'
+import './style.css'
 import { SocialIcon } from 'react-social-icons';
 
 class SocialBox extends React.Component{

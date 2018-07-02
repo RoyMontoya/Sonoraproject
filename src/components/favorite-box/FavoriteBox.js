@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../styles/FavoriteBox.css'
+import './style.css'
 
 class FavoriteBox extends React.Component{
 

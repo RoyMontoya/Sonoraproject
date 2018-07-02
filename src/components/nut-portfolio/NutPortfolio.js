@@ -1,10 +1,7 @@
 import React, {Component} from 'react';
-import '../styles/NutPortfolio.css';
-import ProfileBox from './ProfileBox';
-import profile1 from '../img/profile1.jpg';
-import profile2 from '../img/profile2.jpg';
-import profile3 from '../img/profile3.jpeg';
-import data from '../controllers/FirebaseController';
+import './style.css';
+import ProfileBox from '../profile-box/ProfileBox';
+import data from '../../controllers/FirebaseController';
 
 class NutPortfolio extends React.Component {
   constructor(props) {
