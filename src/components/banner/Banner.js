@@ -3,6 +3,7 @@ import banner from '../../img/banner.jpg'
 import './style.css'
 
 class Banner extends React.Component{
+
   render(){
     return (
       <div>
