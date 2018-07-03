@@ -15,20 +15,15 @@ library.add(faCheckSquare, faCoffee)
 
 class App extends Component {
   render() {
-    const newsFeedComponent = () => (<NewsFeed/>);
-    const nutritionComponent = () => (<NutPortfolio/>);
-    const coachComponent = () => (<CoachPortfolio/>);
-    const aboutComponent = () => (<About/>);
-
     return (<div className="App">
       <Banner/>
       <Router>
         <div>
           <NavBar/>
-          <Route exact="exact" path="/" component={newsFeedComponent}/>
-          <Route path="/nutricion" component={nutritionComponent}/>
-          <Route path="/instructores" component={coachComponent}/>
-          <Route path="/about" component={aboutComponent}/>
+          <Route exact="exact" path="/" component={NewsFeed}/>
+          <Route path="/nutricion" component={NutPortfolio}/>
+          <Route path="/instructores" component={CoachPortfolio}/>
+          <Route path="/about" component={About}/>
         </div>
       </Router>
 
