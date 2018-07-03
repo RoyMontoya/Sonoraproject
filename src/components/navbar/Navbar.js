@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import logo from '../../img/avocado.png'
 import './style.css';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class NavBar extends React.Component {
   render(){
@@ -17,18 +18,16 @@ class NavBar extends React.Component {
           <div className="collapse navbar-collapse" >
             <ul className="nav navbar-nav ml-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="#">Inicio
-                  <span className="sr-only">(current)</span>
-                </a>
+                <Link to="/">Inicio</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Nutricion</a>
+                <Link to="/nutricion">Nutricion</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Instructores</a>
+                <Link to="/instructores">Instructores</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">About</a>
+                <Link to="/about">About</Link>
               </li>
             </ul>
           </div>
