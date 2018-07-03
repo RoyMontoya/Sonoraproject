@@ -32,8 +32,8 @@ class NewsFeed extends React.Component {
   }
 
   render() {
-    let newsDiv = this.state.news.map((news) =>{
-      return (<NewsCard title={news.title} content={this.cutContent(news.content)} image={news.image}/>)
+    let newsDiv = this.state.news.map((news, index) =>{
+      return (<NewsCard key={index} title={news.title} content={this.cutContent(news.content)} image={news.image}/>)
     });
 
     return (<div className="container">
